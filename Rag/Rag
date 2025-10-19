@@ -1,8 +1,16 @@
 Indexing
 Retrieval
 Generation
+https://www.youtube.com/watch?v=sVcwVaQRHIc8
 
 
 Indexing
 	Numerical representation for serach
-	
+
+	Statistical and Machine Learned representations
+
+	Data ---->Bag Of Words  	Representation Serach
+				[0,0,1,4,..]	Sparse			BM25
+
+			->Embeddings
+				[0.001,-0.004]  Dense			KNN,HNSW
