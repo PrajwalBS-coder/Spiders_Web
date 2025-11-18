@@ -1,3 +1,6 @@
+import logging
+
+logging.basicConfig(level=logging.INFO)
 class Solution(object):
     def isOneBitCharacter(self, bits):
         parity = bits.pop()
@@ -5,4 +8,4 @@ class Solution(object):
         return parity == 0
     
 sol=Solution()
-print(sol.isOneBitCharacter([1,0,0,1]))
+logging.info(sol.isOneBitCharacter([1,0,0,1]))
